@@ -1,0 +1,19 @@
+footer{
+  background-color: #1A252F;
+  color: white;
+}
+.home-info{
+  background-color: rgb(44, 62, 80);
+}
+.social-icon
+{
+  cursor: pointer;
+  font-size: 25px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.social-icon:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(26, 188, 156);
+}

@@ -1,0 +1,15 @@
+.about-main{
+  background-color: rgb(26, 188, 156);
+  color: white;
+  height: 70vh;
+}
+.line{
+    height: 4px;
+    width: 90px;
+    background-color: rgb(255, 255, 255);
+    margin: 7px 15px 7px 15px;
+}
+/* p{
+  max-width: 350px;
+    word-wrap: break-word;
+} */

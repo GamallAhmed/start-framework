@@ -1,0 +1,83 @@
+.card {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.card-img {
+    position: relative;
+    border-radius: 10px;
+}
+
+.card .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(15, 87, 189, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card:hover .overlay {
+    opacity: 1;
+}
+
+.card .plus-icon {
+    color: white;
+    font-size: 3rem;
+    display: none;
+}
+
+.card:hover .plus-icon {
+    display: block;
+}
+
+.hidden-card {
+    visibility: hidden;
+}
+
+.full-screen-overlay {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.active-card-content img {
+  position: absolute;
+  top: 15%;
+  left: 25%;
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 10px;
+}
+.line{
+    height: 4px;
+    width: 90px;
+    background-color: rgb(0, 0, 0);
+    margin: 7px 15px 7px 15px;
+}
+@media (max-width: 576px) {
+.active-card-content img {
+  position: absolute;
+  top: 25%;
+  left:5%;
+    max-width: 90%;
+    max-height: 80%;
+    border-radius: 10px;
+}
+
+ }

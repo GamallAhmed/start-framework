@@ -1,0 +1,23 @@
+.home{
+  background-color: #1ABC9C;
+}
+.home-img{
+  width: 250px;
+  margin: auto;
+}
+.line{
+    height: 4px;
+    width: 90px;
+    background-color: rgb(255, 255, 255);
+    margin: 7px 15px 7px 15px;
+}
+.jops
+{
+    font-size: 18px;
+}
+
+.social-icon{
+   font-size: 30px;
+   margin: 20x;
+   padding: 5px;
+}
